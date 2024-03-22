@@ -36,7 +36,7 @@ const useStore = create((set) => ({
     set((state) => ({
       ...state,
       cartItems: state.cartItems.filter((i) => i.id !== id),
-      ...calculateTotal(state), // Update all values
+      ...calculateTotal(state),
     }));
   },
 }));
