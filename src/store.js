@@ -18,7 +18,7 @@ const useStore = create((set) => ({
       }
       return { ...state };
     });
-    set((state) => ({ ...state, ...calculateTotal(state) })); // Update all values
+    set((state) => ({ ...state, ...calculateTotal(state) }));
   },
   decrement: (id) => {
     set((state) => {
@@ -30,7 +30,7 @@ const useStore = create((set) => ({
       }
       return { ...state };
     });
-    set((state) => ({ ...state, ...calculateTotal(state) })); // Update all values
+    set((state) => ({ ...state, ...calculateTotal(state) }));
   },
   deleteFromCart: (id) => {
     set((state) => ({
