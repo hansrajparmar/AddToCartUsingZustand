@@ -1,4 +1,3 @@
-// Cart.jsx
 import React from 'react';
 import { AiFillDelete } from 'react-icons/ai';
 import useStore from '../store';
